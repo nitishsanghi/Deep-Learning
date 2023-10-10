@@ -50,7 +50,7 @@ The autoencoder is composed of an encoder and a decoder module, each consisting 
 - **Optimizer**: Adam, with a learning rate of 0.05.
 - **Epochs**: The model was trained for 25 epochs with a batch size of 1024.
 
-![Training and Validation Loss](https://github.com/nitishsanghi/Deep-Learning-Autoencoders/blob/main/MNIST/LinearAutoencoderTrainingLoss.png)
+![Training and Validation Loss](https://github.com/nitishsanghi/Deep-Learning/blob/main/MNIST_Autoencoders/LinearAutoencoderImages/LinearAutoencoderTrainingLoss.png)
 
 *Figure 1: Training and Validation Loss over Epochs*
 
@@ -59,14 +59,14 @@ The autoencoder is composed of an encoder and a decoder module, each consisting 
 ### Digit Reconstruction
 The autoencoder was capable of reconstructing the MNIST digits with high fidelity. The comparison between original and reconstructed images shows the model's effectiveness.
 
-![Digit Reconstruction](https://github.com/nitishsanghi/Deep-Learning-Autoencoders/blob/main/MNIST/LinearAutoencoderEasyToReconstruct.png)
+![Digit Reconstruction](https://github.com/nitishsanghi/Deep-Learning/blob/main/MNIST_Autoencoders/LinearAutoencoderImages/LinearAutoencoderEasyToReconstruct.png)
 
 *Figure 2: Original vs. Reconstructed Digits*
 
 ### Anomaly Detection
 By examining reconstruction loss, the model could identify digits that deviated significantly from the typical patterns it learned during training.
 
-![Anomaly Detection](https://github.com/nitishsanghi/Deep-Learning-Autoencoders/blob/main/MNIST/LinearAutoencoderDifficultToReconstruct.png)
+![Anomaly Detection](https://github.com/nitishsanghi/Deep-Learning-Autoencoders/blob/main/MNIST_Autoencoders/LinearAutoencoderImages/LinearAutoencoderDifficultToReconstruct.png)
 
 *Figure 3: Anomaly Detection based on Reconstruction Loss*
 
